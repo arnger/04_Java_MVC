@@ -3,6 +3,7 @@ package com.demo.blog;
 import com.demo.common.model.Blog;
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
+import com.jfinal.ext.interceptor.*;
 
 /**
  * BlogController
@@ -10,6 +11,7 @@ import com.jfinal.core.Controller;
  */
 @Before(BlogInterceptor.class)
 public class BlogController extends Controller {
+	@Before(NoUrlPara.class)
 	public void index() {
 		setAttr("blogPage", Blog.me.paginate(getParaToInt(0, 1), 10));
 		render("blog.html");

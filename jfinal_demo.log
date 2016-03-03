@@ -500,3 +500,1106 @@ Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A Resourc
 
 2016-03-02 17:40:18
 [WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/test/
+
+2016-03-03 11:07:49
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionException.<init>()]: Can not parse the parameter "jj" to Integer value.
+
+2016-03-03 11:07:49
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/jj
+
+2016-03-03 11:12:39
+[ERROR]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: /p
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:87)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	... 25 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Before cannot be resolved to a type
+	NoUrlPara cannot be resolved to a type
+
+	at com.demo.index.IndexController.index(IndexController.java:9)
+	... 30 more
+
+2016-03-03 11:12:46
+[ERROR]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: /hh
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:87)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	... 25 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Before cannot be resolved to a type
+	NoUrlPara cannot be resolved to a type
+
+	at com.demo.index.IndexController.index(IndexController.java:9)
+	... 30 more
+
+2016-03-03 11:12:57
+[ERROR]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: /
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:87)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	... 25 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Before cannot be resolved to a type
+	NoUrlPara cannot be resolved to a type
+
+	at com.demo.index.IndexController.index(IndexController.java:9)
+	... 30 more
+
+2016-03-03 11:13:00
+[ERROR]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: /
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:87)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	... 25 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Before cannot be resolved to a type
+	NoUrlPara cannot be resolved to a type
+
+	at com.demo.index.IndexController.index(IndexController.java:9)
+	... 30 more
+
+2016-03-03 11:16:38
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /jj
+
+2016-03-03 11:16:41
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /jj
+
+2016-03-03 11:16:42
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /jj
+
+2016-03-03 11:16:49
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:51
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:52
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:52
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:53
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:54
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:55
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:56
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:16:57
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/a
+
+2016-03-03 11:17:02
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index
+
+2016-03-03 11:20:43
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index
+
+2016-03-03 11:20:44
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index
+
+2016-03-03 11:20:47
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /index
+
+2016-03-03 11:20:49
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /index
+
+2016-03-03 11:20:58
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:03
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:03
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:21:04
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:06
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionException.<init>()]: Can not parse the parameter "ll" to Integer value.
+
+2016-03-03 11:22:06
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:29
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:38
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:57
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:57
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:58
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:58
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:22:58
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:23:13
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:23:14
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:23:14
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:23:15
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:14
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:16
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:18
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:19
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:19
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:21
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:21
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:35
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:38
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:39
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:40
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:40
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:41
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:41
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:41
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:29:55
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/9
+
+2016-03-03 11:30:05
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/9
+
+2016-03-03 11:30:06
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/9
+
+2016-03-03 11:30:07
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/9
+
+2016-03-03 11:30:08
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/9
+
+2016-03-03 11:30:21
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/955
+
+2016-03-03 11:30:23
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/955
+
+2016-03-03 11:30:32
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blo
+
+2016-03-03 11:30:41
+[WARN]-[Thread: qtp897697267-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/oo
+
+2016-03-03 11:32:38
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /6
+
+2016-03-03 11:33:04
+[WARN]-[Thread: qtp897697267-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:33:05
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ll
+
+2016-03-03 11:33:11
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ppp
+
+2016-03-03 11:33:20
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /b
+
+2016-03-03 11:36:19
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/2
+
+2016-03-03 11:36:23
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:06
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:07
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:07
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:07
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:08
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /bl/
+
+2016-03-03 11:37:24
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /sss
+
+2016-03-03 12:21:05
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/,
+
+2016-03-03 12:21:55
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/a=
+
+2016-03-03 12:22:21
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /bl?a=
+
+2016-03-03 12:22:33
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /a=
+
+2016-03-03 12:23:08
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.kit.LogKit.error()]: sun.reflect.annotation.TypeNotPresentExceptionProxy
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.declaredAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.declaredAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.getAnnotation(Unknown Source)
+	at java.lang.reflect.Method.getAnnotation(Unknown Source)
+	at com.jfinal.aop.InterceptorManager.doBuild(InterceptorManager.java:83)
+	at com.jfinal.aop.InterceptorManager.buildControllerActionInterceptor(InterceptorManager.java:75)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:78)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+2016-03-03 12:23:32
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.kit.LogKit.error()]: sun.reflect.annotation.TypeNotPresentExceptionProxy
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.declaredAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.declaredAnnotations(Unknown Source)
+	at java.lang.reflect.Executable.getAnnotation(Unknown Source)
+	at java.lang.reflect.Method.getAnnotation(Unknown Source)
+	at com.jfinal.aop.InterceptorManager.doBuild(InterceptorManager.java:83)
+	at com.jfinal.aop.InterceptorManager.buildControllerActionInterceptor(InterceptorManager.java:75)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:78)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+2016-03-03 12:23:52
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /a=
+
+2016-03-03 12:23:53
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /a=
+
+2016-03-03 12:23:57
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?a=
+
+2016-03-03 12:24:00
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?a=
+
+2016-03-03 12:24:04
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?a=
+
+2016-03-03 12:24:06
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:12
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:20
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:21
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:21
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:22
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:22
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:23
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:23
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:23
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:24:23
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:15
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:53
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:55
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:56
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:56
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:56
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:56
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:57
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:57
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:57
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:58
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:58
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:59
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:25:59
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 12:41:14
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /blog/add/p/a
+
+2016-03-03 12:41:22
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /blog/add/p/a?
+
+2016-03-03 12:41:27
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /blog/add/p/a?a=1
+
+2016-03-03 12:41:51
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/asdfasdfas
+
+2016-03-03 12:45:04
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/asdfasdfas
+
+2016-03-03 12:46:58
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /abcd/
+
+2016-03-03 12:47:17
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /ab/c/
+
+2016-03-03 12:48:00
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/abc
+
+2016-03-03 12:50:18
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/abc
+
+2016-03-03 12:50:24
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /aaa
+
+2016-03-03 12:50:26
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /aaa
+
+2016-03-03 12:50:32
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /abc/
+
+2016-03-03 12:50:37
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /a
+
+2016-03-03 12:50:43
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2016-03-03 12:50:47
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /index
+
+2016-03-03 12:50:52
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index
+
+2016-03-03 12:50:56
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:32
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:33
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:34
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:34
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:34
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:35
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:35
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:39
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 12:59:40
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/index/
+
+2016-03-03 13:00:09
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /def
+
+2016-03-03 13:01:38
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /def
+
+2016-03-03 13:01:39
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /def
+
+2016-03-03 13:01:42
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:01:45
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:01:48
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:01:51
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:02:00
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/a
+
+2016-03-03 13:02:08
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/a?
+
+2016-03-03 13:02:52
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?adfa=1
+
+2016-03-03 13:02:59
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?adfa=1
+
+2016-03-03 13:03:04
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /?adfa=1
+
+2016-03-03 13:03:08
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:06
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:10
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:11
+[WARN]-[Thread: qtp2042495840-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:11
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:14
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:05:31
+[WARN]-[Thread: qtp2042495840-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /index?a
+
+2016-03-03 13:05:48
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2016-03-03 13:06:07
+[WARN]-[Thread: qtp2042495840-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /index/
+
+2016-03-03 13:06:22
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /abc
+
+2016-03-03 13:07:14
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /abc
+
+2016-03-03 13:28:35
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: //aaa
+
+2016-03-03 13:28:39
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /aaa
+
+2016-03-03 13:28:49
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/a
+
+2016-03-03 13:28:56
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/adffffff
+
+2016-03-03 13:29:20
+[WARN]-[Thread: qtp897697267-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/adffffff
+
+2016-03-03 13:29:25
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /blog/adffffff/
+
+2016-03-03 13:37:59
+[WARN]-[Thread: qtp897697267-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /blog/adffffff/
+
+2016-03-03 13:38:31
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/adfa
+
+2016-03-03 13:38:39
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:40:58
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:00
+[WARN]-[Thread: qtp897697267-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:00
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:01
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:01
+[WARN]-[Thread: qtp897697267-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:01
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:01
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:02
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:03
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:03
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:04
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:04
+[WARN]-[Thread: qtp897697267-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:04
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:05
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:06
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:07
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:07
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:08
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:08
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:08
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:33
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:34
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:35
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:38
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:39
+[WARN]-[Thread: qtp897697267-21]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:39
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/test
+
+2016-03-03 13:41:43
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:41:46
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 13:41:48
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:02:32
+[WARN]-[Thread: qtp897697267-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:03:17
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:03:19
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:03:20
+[WARN]-[Thread: qtp897697267-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:03:20
+[WARN]-[Thread: qtp897697267-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:03:20
+[WARN]-[Thread: qtp897697267-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /
+
+2016-03-03 14:04:03
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:05
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:05
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:05
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:06
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:06
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:10
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:16
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog
+
+2016-03-03 14:04:29
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:33
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:34
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:35
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:35
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:36
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:36
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:05:36
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/ab
+
+2016-03-03 14:36:21
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:23
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:24
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:24
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:24
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:25
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:25
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:25
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:25
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:26
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:26
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:27
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:28
+[WARN]-[Thread: qtp2042495840-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:28
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:28
+[WARN]-[Thread: qtp2042495840-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:28
+[WARN]-[Thread: qtp2042495840-22]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:28
+[WARN]-[Thread: qtp2042495840-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:29
+[WARN]-[Thread: qtp2042495840-26]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
+
+2016-03-03 14:36:29
+[WARN]-[Thread: qtp2042495840-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Not Found: /blog/llllllllllllllllll
